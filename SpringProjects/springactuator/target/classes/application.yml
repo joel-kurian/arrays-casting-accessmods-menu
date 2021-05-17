@@ -1,0 +1,9 @@
+spring:
+  profiles: dev
+  
+server:  port: 8089
+---
+spring:  profiles: prod  
+server:  port: 8086
+---
+spring:  profiles:    active: prod
